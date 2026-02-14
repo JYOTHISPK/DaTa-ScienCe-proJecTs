@@ -1,5 +1,5 @@
 # Student Performance Analysis Using Python
-![](aiimage.png)
+![](aiimage.PNG)
 
 ## Project Overview:
 There are several factors which effect overall performance of students curriculum .This project aims to analyse effect of various such factors like Hours Studied,Sleep Hours,Question Papers Practiced etc. Comparing these factors with overall performance index of students in dataset Student_Performance.
@@ -15,7 +15,7 @@ Q4: Is there any relations between Extracurricular Activites and Performance Ind
 RangeIndex: 10000 entries, 0 to 9999
 Data columns (total 6 columns):
 
- #   Column                            Non-Null Count  Dtype  
+ -   Column                            Non-Null Count  Dtype  
 ---  ------                            --------------  -----  
  0   Hours Studied                     10000 non-null  int64  
  1   Previous Scores                   10000 non-null  int64  
@@ -45,5 +45,5 @@ dtypes: float64(1), int64(4), object(1)
 - Matplotlib
 - Jupyter Notebook
 
-## Conclusions :
+## Conclusion :
 In raw data analysis higher the Sleep Hours,Hours Studied and participate in Extra Curricular Activites chance for getting good Performance Index is high.In aggregate analysis as Sleep Hours,Hours Studied goes higher and participate in Extra Curricular Activites average Performance increases steadily.
