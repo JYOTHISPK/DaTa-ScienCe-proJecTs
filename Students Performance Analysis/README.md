@@ -1,5 +1,5 @@
 # Student Performance Analysis Using Python
-![](aiimage.PNG)
+<img src="projectimage.png" width="400">
 
 ## Project Overview:
 There are several factors which effect overall performance of students curriculum .This project aims to analyse effect of various such factors like Hours Studied,Sleep Hours,Question Papers Practiced etc. Comparing these factors with overall performance index of students in dataset Student_Performance.
@@ -19,7 +19,7 @@ Data columns (total 6 columns):
 ---  ------                            --------------  -----  
  0   Hours Studied                     10000 non-null  int64  
  1   Previous Scores                   10000 non-null  int64  
- 2   Extracurricular Activities        10000 non-null  object 
+ 2   Extracurricular Activities        10000 non-null  object
  3   Sleep Hours                       10000 non-null  int64  
  4   Sample Question Papers Practiced  10000 non-null  int64  
  5   Performance Index                 10000 non-null  float64
