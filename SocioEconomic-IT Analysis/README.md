@@ -1,7 +1,7 @@
 <h1 align="center">Socio-Economic Factors for IT Growth in India - Analysis</h1>
 
 <p align="center">
-  <img src="projectimage.png" width="900">
+  <img src="projectimage.png" width="650" height="350">
 </p>
 
 ## Project Overview
