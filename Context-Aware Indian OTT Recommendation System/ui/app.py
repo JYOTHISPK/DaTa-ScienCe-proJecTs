@@ -224,7 +224,7 @@ st.markdown("""
     </div>
 
     <div class="cinewise-subtitle">
-    ...Pick Your Cinema Wisely ...
+    ... Pick Your Cinema Wisely ...
     </div>
     """, unsafe_allow_html=True)
 
