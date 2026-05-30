@@ -24,7 +24,7 @@ The project demonstrates how contextual information can be integrated into recom
 ## Application Preview
 
 <p align="center">
-  <img src="images/screenshot1.png" width="900">
+  <img src="images/screenshot1.png" width="800">
 </p>
 
 ## Features
