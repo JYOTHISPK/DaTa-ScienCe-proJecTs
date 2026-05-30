@@ -1,10 +1,21 @@
 import pandas as pd
 
+from pathlib import Path
+
 import random
 
-from mapping import *
+from mapping import (
+    region_map,
+    weather_map,
+    age_map,
+    movie_era_map
+)
 
-df=pd.read_csv("../data/cleaned movies.csv")
+BASE_DIR = Path(__file__).parent
+
+csv_path = BASE_DIR.parent / "data" / "cleaned movies.csv"
+
+df = pd.read_csv(csv_path)
 
 def get_age_group(age) :
 
@@ -79,9 +90,3 @@ def recommend(region,weather,age) :
     recommendations = sorted(recommendations , key = lambda x:x["score"] , reverse=True)
         
     return recommendations[:10]
-
-result = recommend("kerala","rainy",26)
-
-for movie in result:
-
-    print(movie)
